@@ -1,0 +1,23 @@
+.ll{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(49, 255, 186);
+    border: 5px solid;
+    margin-top: 10px;
+    margin-block-end: 10%;
+}
+
+.dark{
+    background-color: black;
+    color: aliceblue;
+    .ll{
+    border-color: blue;
+    color: blue;
+    
+    }
+}
+
+.light{
+    background-color: aliceblue;
+    color: black;
+}
